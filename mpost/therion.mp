@@ -1147,6 +1147,8 @@ input thText;
 input thSpecial;
 input uAUT;
 input uSBE;
+input lithfill;
+input lithpats;
 
 input thTrans;
 

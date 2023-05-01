@@ -1,4 +1,6 @@
 set(MPOST_SOURCES
+    lithfill.mp
+    lithpats.mp
     thArea.mp
     therion.mp
     thLine.mp

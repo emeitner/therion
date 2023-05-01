@@ -1,0 +1,10 @@
+encoding  utf-8
+source test.th
+
+layout test-layout
+    title "Home Cave"
+    scale 1 30
+endlayout
+
+select test
+export map -output test-plan.pdf -layout test-layout

@@ -1,0 +1,16 @@
+encoding  utf-8
+
+survey test -title "Cave" -entrance A0
+
+  centreline 
+    units compass clino degree
+    units tape meters
+  
+    data normal from to tape compass clino  left right up down 
+     A0 A1   5.21    94.0    +1.0  1.64    1.81    2.11    0.36
+     A1 A2   2.53    52.0    0     0.72    3.2       1.81    0.70
+  endcentreline
+
+  input test.th2
+endsurvey test
+

@@ -144,6 +144,7 @@ let l_wall_pit = l_wall_pit_AUT;
 let l_wall_overlying = l_wall_overlying_AUT;
 let l_wall_flowstone = l_wall_flowstone_AUT;
 let l_wall_moonmilk = l_wall_moonmilk_AUT;
+let l_wall_limestone = l_wall_limestone_UIS;
 
 let l_waterflow_permanent = l_waterflow_permanent_UIS;
 let l_waterflow_intermittent = l_waterflow_intermittent_SKBB;
@@ -199,6 +200,7 @@ let a_pillarwithcurtains = a_pillarwithcurtains_SBE;
 let a_stalactite = a_stalactite_SBE;
 let a_stalactitestalagmite = a_stalactitestalagmite_SBE;
 let a_stalagmite = a_stalagmite_SBE;
+let a_limestone = a_limestone_UIS;
 
 let s_northarrow = s_northarrow_SKBB;
 let s_scalebar = s_scalebar_SKBB;
