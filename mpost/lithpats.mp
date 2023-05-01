@@ -33,12 +33,17 @@ endpattern;
 
 
 beginpattern(pattern_sandstone_UIS)
-    drawdot (3,10);
-    drawdot (15,18);
-    drawdot (17,12);
-    drawdot (9,5);   
-    drawdot (8,16);  
-    drawdot (16,4); 
-    patternbbox(0,0,19,19);
+    scale := 1;
+    drawdot (2,1);
+    drawdot (5,2);
+    drawdot (8,2);
+    drawdot (5,4);
+    drawdot (5,0);
+    drawdot (3,6);
+    drawdot (1,8);
+    drawdot (6,8);
+    drawdot (3,9);
+    drawdot (6,0);
+    patternbbox(0,0,9*scale,9*scale);
 endpattern;
 
