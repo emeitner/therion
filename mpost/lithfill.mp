@@ -1,7 +1,5 @@
-%input mpattern;
-%input lithpats;
 
-def phil( expr P,pat) =
+def lithfill( expr P,pat) =
   %tracingall;
   %tracingonline:=1;
   show P;
@@ -72,6 +70,6 @@ def l_wall_limestone_UIS (expr P) =
   T:=identity;
   pickup PenA;
   thdraw P;  
-  phil(P, pattern_limestone_UIS)
+  lithfill(P, pattern_limestone_UIS)
 enddef;
 
