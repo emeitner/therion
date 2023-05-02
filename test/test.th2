@@ -51,7 +51,7 @@ line wall -subtype limestone
   119.9 215.56 119.5 211.25 120.25 206.0
 endline
 
-line wall -subtype ice
+line wall -subtype shale
   120.25 206.0
   120.95 201.07 120.75 199.5 126.25 194.75
   smooth off
@@ -63,7 +63,7 @@ line wall -subtype clay
   smooth off
 endline
 
-line wall -subtype ice
+line wall -subtype shale
   158.5 196.0
   165.75 203.75 170.25 213.0 170.25 213.0
   smooth off
@@ -83,5 +83,3 @@ line wall -subtype limestone
 endline
 
 endscrap
-
-
