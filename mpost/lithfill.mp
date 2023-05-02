@@ -5,8 +5,8 @@ def lithfill( expr P,pat) =
   show P;
   begingroup
     DEBUG := 0;
-    walloffset := 1; % FIXME how to scale this?
-    thickness := 15; % FIXME how to scale this?
+    walloffset := .1u; % This may need tweaking
+    thickness := .75u; % This may need tweaking
     pair p[];
     pair a,b,a',b',n,n';
     path S;
@@ -28,8 +28,8 @@ def lithfill( expr P,pat) =
         fill dbg withcolor green;
         draw dbg;
       fi;
-      stp := .2; % FIXME how to scale this?
-      
+      stp := .01u; % FIXME This may need tweaking
+
       for i=0 step stp until sl:
         p0 := point i of S;
         p1 := point i+stp of S;
