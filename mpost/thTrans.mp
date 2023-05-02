@@ -180,6 +180,7 @@ let l_fixedladder = l_fixedladder_SKBB;
 let l_ropeladder = l_ropeladder_SKBB;
 let l_rope = l_rope_SKBB;
 let l_viaferrata = l_viaferrata_SKBB;
+let l_wall_shale = l_wall_shale_UIS;
 
 let a_water = a_water_UIS;
 let a_sump = a_sump_UIS;

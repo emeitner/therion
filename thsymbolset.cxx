@@ -287,6 +287,7 @@ int thsymbolset_get_id(const char * symclass, const char * symbol)
             c2(TT_LINE_SUBTYPE_PIT,SYML_WALL_PIT)
             c2(TT_LINE_SUBTYPE_OVERLYING,SYML_WALL_OVERLYING)
             c2(TT_LINE_SUBTYPE_LIMESTONE,SYML_WALL_LIMESTONE)
+            c2(TT_LINE_SUBTYPE_SHALE,SYML_WALL_SHALE)
           }
           break;
         case TT_LINE_TYPE_BORDER:
@@ -920,7 +921,8 @@ int thsymbolset_get_group(int group_id, int cid) {
     group(11,SYML_WALL_OVERLYING)
     group(12,SYML_WALL_MOONMILK)
     group(13,SYML_WALL_FLOWSTONE)
-    group(14,SYML_WALL_LIMESTONE)    
+    group(14,SYML_WALL_LIMESTONE)
+    group(15,SYML_WALL_SHALE)
     egroup
 
     bgroup(SYMX_LINE_WATERFLOW)
@@ -1123,6 +1125,7 @@ void thsymbolset::export_pdf(class thlayout * layout, FILE * mpf, unsigned & sfi
   legend_wall(SYML_WALL_FLOWSTONE,thT("line wall:flowstone",layout->lang));
   legend_wall(SYML_WALL_MOONMILK,thT("line wall:moonmilk",layout->lang));
   legend_wall(SYML_WALL_LIMESTONE,thT("line wall:limestone",layout->lang));
+  legend_wall(SYML_WALL_SHALE,thT("line wall:shale",layout->lang));
 
   insfig(SYMP_WALLALTITUDE,thT("point wall-altitude",layout->lang));
   helpsymbol;

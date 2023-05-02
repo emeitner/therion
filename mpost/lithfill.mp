@@ -73,3 +73,9 @@ def l_wall_limestone_UIS (expr P) =
   lithfill(P, pattern_limestone_UIS)
 enddef;
 
+def l_wall_shale_UIS (expr P) =
+  T:=identity;
+  pickup PenA;
+  thdraw P;
+  lithfill(P, pattern_shale_UIS)
+enddef;

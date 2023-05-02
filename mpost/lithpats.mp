@@ -47,3 +47,14 @@ beginpattern(pattern_sandstone_UIS)
     patternbbox(0,0,9*scale,9*scale);
 endpattern;
 
+beginpattern(pattern_shale_UIS)
+    scale := 1;
+    pickup pencircle scaled (.1bp);
+    %draw (0,10)--(29,10) scaled scale ;
+    draw (0,8)--(29,8) scaled scale dashed dashpattern(on 7bp off 2bp) shifted (0bp,0);
+    draw (0,6)--(29,6) scaled scale dashed dashpattern(on 24bp off 6bp);  
+    %draw (0,4)--(29,4) scaled scale dashed dashpattern(on 24bp off 6bp) shifted (12bp,0);
+    draw (0,2)--(29,2) scaled scale dashed dashpattern(on 24bp off 6bp) shifted (6bp,0);
+    draw (0,0)--(29,0) scaled scale dashed dashpattern(on 24bp off 6bp);
+    patternbbox(0,0,29*scale,11*scale);
+endpattern;

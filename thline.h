@@ -282,6 +282,7 @@ enum {
   TT_LINE_SUBTYPE_MOONMILK,
   TT_LINE_SUBTYPE_FLOWSTONE,
   TT_LINE_SUBTYPE_LIMESTONE,
+  TT_LINE_SUBTYPE_SHALE,
 };
 
 /**
@@ -307,6 +308,7 @@ static const thstok thtt_line_subtypes[] = {
   {"pit",TT_LINE_SUBTYPE_PIT},
   {"presumed",TT_LINE_SUBTYPE_PRESUMED},
   {"sand",TT_LINE_SUBTYPE_SAND},
+  {"shale",TT_LINE_SUBTYPE_SHALE},  
   {"surface",TT_LINE_SUBTYPE_SURFACE},
   {"temporary",TT_LINE_SUBTYPE_TEMPORARY},
   {"underlying",TT_LINE_SUBTYPE_UNDERLYING},
